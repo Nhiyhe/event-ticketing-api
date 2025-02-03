@@ -122,7 +122,7 @@ If more time were available, the following improvements could be implemented:
 
 - **Logging System** - Implement Logging system for error and success loggin.
 - **Pagination for Statistics** - To handle large datasets efficiently.
-- **Transaction** - implement transaction in /tickets route. to make sure (saving new order and event)they both complete or they both roll back.
+- **Transaction** - implement transaction in /tickets route. to make sure (saving new order and event)they both complete or they both roll back in case of error.
 - **Robust Error handling** - Implementation of robust error handling, to account for database related validations and to avoid repetitions.
 
 ## License
